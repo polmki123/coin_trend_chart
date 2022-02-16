@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>889</width>
+    <height>1021</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>871</width>
+     <height>1001</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>5분</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="current_time">
+      <property name="text">
+       <string>가장 최근 업데이트 시간</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="min5table">
+      <column>
+       <property name="text">
+        <string>코인</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>현재가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최저가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>index</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가 대비 변화량</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최저대비</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최고대비</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>15분</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="current_time_2">
+      <property name="text">
+       <string>가장 최근 업데이트 시간</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="min15table">
+      <column>
+       <property name="text">
+        <string>코인</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>현재가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최저가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>index</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가 대비 변화량</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최저대비</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최고대비</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>30분</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="current_time_3">
+      <property name="text">
+       <string>가장 최근 업데이트 시간</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="min30table">
+      <column>
+       <property name="text">
+        <string>코인</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>현재가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최저가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>평균</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가 대비 변화량</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최저대비</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최고대비</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>1시간</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="current_time_4">
+      <property name="text">
+       <string>가장 최근 업데이트 시간</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="hourtable">
+      <column>
+       <property name="text">
+        <string>코인</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>현재가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최저가</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>평균</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>최고가 대비 변화량</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최저대비</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>롱 최고대비</string>
+       </property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
