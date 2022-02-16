@@ -23,3 +23,12 @@ Run it with the following command.
 
 If the following screen appears, it is normal.
   
+# ROAD MAP 
+
+1. Comparison of growth rates based on up to 5 coins per coin theme
+
+2. Start developing web pages to see themes at a glance
+
+3. Developed to reduce overload by building an analysis backend system based on the code and storing the analysis results in the DB so that only the analyzed results can be viewed in the Spring server
+
+4. Developed to reduce overload by building an analysis backend system based on the code and storing the analysis results in the DB so that only the analyzed results can be viewed in the Spring server
