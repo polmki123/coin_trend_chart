@@ -19,7 +19,7 @@ python entry_main.py
 ```
 Run it with the following command.
 
-![Alt text](/img/1.jpg)
+![Alt text](/img/1.)
 
 If the following screen appears, it is normal.
   
